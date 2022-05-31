@@ -27,6 +27,18 @@ h1{
     text-align: center;
     letter-spacing: 7px;
 }
+.invite{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.choose{
+    letter-spacing: 4px;
+    color: hsl(345, 95%, 68%);
+    cursor: pointer;
+}
+
 .liveCounter{
     margin: auto;
     width: 90%;
@@ -52,7 +64,7 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .desc{
     display: flex;
@@ -70,6 +82,15 @@ h1{
     margin: 0 auto;
     z-index: 1;
 }
+
 .icons a{
     padding: 10px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    z-index: 1;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
 }
